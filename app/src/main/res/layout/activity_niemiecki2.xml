@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".Niemiecki2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/detailsElementBackground"
+        android:backgroundTint="@android:color/background_light"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/allerta"
+                android:text="Kategorie"
+                android:textColor="#0B0A0A"
+                android:textSize="36sp">
+
+            </TextView>
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:background="#AFCBE1"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="5">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="6dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/allerta"
+                        android:text="DOM I RODZINA"
+                        android:textColor="#0B0A0A"
+                        android:textSize="24dp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/family">
+
+                    </ImageView>
+
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/roundbutton"
+                        android:fontFamily="@font/allerta"
+                        android:onClick="uruchomRozDomRodzN"
+                        android:text="Wybierz!"
+                        android:textColor="#070707"
+                        android:textSize="18sp">
+
+                    </Button>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="6dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/allerta"
+                        android:text="JEDZENIE"
+                        android:textColor="#0B0A0A"
+                        android:textSize="24dp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/food">
+
+                    </ImageView>
+
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/roundbutton"
+                        android:fontFamily="@font/allerta"
+                        android:onClick="uruchomRozJedzenieN"
+                        android:text="Wybierz!"
+                        android:textColor="#070707"
+                        android:textSize="18sp">
+
+                    </Button>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="6dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/allerta"
+                        android:text="SPORT"
+                        android:textColor="#0B0A0A"
+                        android:textSize="24dp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/sport">
+
+                    </ImageView>
+
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/roundbutton"
+                        android:fontFamily="@font/allerta"
+                        android:onClick="uruchomRozSportN"
+                        android:text="Wybierz!"
+                        android:textColor="#070707"
+                        android:textSize="18sp">
+
+                    </Button>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="6dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/allerta"
+                        android:text="TECHNIKA"
+                        android:textColor="#0B0A0A"
+                        android:textSize="24dp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/tech">
+
+                    </ImageView>
+
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/roundbutton"
+                        android:fontFamily="@font/allerta"
+                        android:onClick="uruchomRozTechnikaN"
+                        android:text="Wybierz!"
+                        android:textColor="#070707"
+                        android:textSize="18sp">
+
+                    </Button>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="6dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/allerta"
+                        android:text="PRZYRODA"
+                        android:textColor="#0B0A0A"
+                        android:textSize="24dp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/nature">
+
+                    </ImageView>
+
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/roundbutton"
+                        android:fontFamily="@font/allerta"
+                        android:onClick="uruchomRozPrzyrodaN"
+                        android:text="Wybierz!"
+                        android:textColor="#070707"
+                        android:textSize="18sp">
+
+                    </Button>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button7N"-->
+<!--        android:layout_width="152dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:background="@drawable/roundbutton"-->
+<!--        android:fontFamily="@font/amita"-->
+<!--        android:onClick="uruchomRozDomRodzN"-->
+<!--        android:text="@string/kat1"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button8N"-->
+<!--        android:layout_width="152dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/button7N"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginTop="68dp"-->
+<!--        android:background="@drawable/roundbutton"-->
+<!--        android:fontFamily="@font/amita"-->
+<!--        android:onClick="uruchomRozJedzenieN"-->
+<!--        android:text="@string/kat2"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button9N"-->
+<!--        android:layout_width="152dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/button8N"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginTop="71dp"-->
+<!--        android:background="@drawable/roundbutton"-->
+<!--        android:fontFamily="@font/amita"-->
+<!--        android:onClick="uruchomRozSportN"-->
+<!--        android:text="@string/kat3"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button10N"-->
+<!--        android:layout_width="152dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/button9N"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginTop="70dp"-->
+<!--        android:background="@drawable/roundbutton"-->
+<!--        android:fontFamily="@font/amita"-->
+<!--        android:onClick="uruchomRozTechnikaN"-->
+<!--        android:text="@string/kat4"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button11N"-->
+<!--        android:layout_width="152dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/button10N"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginTop="70dp"-->
+<!--        android:background="@drawable/roundbutton"-->
+<!--        android:fontFamily="@font/amita"-->
+<!--        android:onClick="uruchomRozPrzyrodaN"-->
+<!--        android:text="PRZYRODA"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold" />-->
+
+</ScrollView>

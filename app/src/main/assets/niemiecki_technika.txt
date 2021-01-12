@@ -1,0 +1,27 @@
+die Antenne-antena-aerial
+die Archaeologie-archeologia
+die Astronomie-astronomia
+das Kabel-kabel-cable
+die mathematische Analyse-analiza matematyczna
+der Konus-stożek-cone
+bauen-budować
+die Entdeckung-odkrycie
+herunterladen-pobierać
+die Elektronik-elektronika-ele
+erkunden-badać
+die Programmierung-programowanie
+das Rechteck-prostokąt
+die Waage-waga
+die Wissenschaft-nauka
+das Quadrat-kwadrat
+der Wissenschaftler-naukowiec-scien
+der Schluss-wniosek
+der Erfinder-wynalazca-inv
+bestaetigen-potwierdzać
+beweisen-udowadniać
+digital-cyfrowy
+der Elektromagnet-elektormagnes-elemgt
+der Motor-silnik-engine
+die Linse-soczewka-lens
+der Stecker-wtyczka-plug
+der Sensor-czujnik

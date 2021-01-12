@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Projekt</string>
+    <string name="info">Witaj w apce do nauki słówek! Do wyboru w menu masz dwa, bez wątpieia najpopularniejsze języki: angielski oraz niemiecki. Wybierz jeden z nich i dopsuj tryb nauki do siebie: dla początkujących losowanie słówka wraz z tłumaczeniem, zaawansowanych zachęcamy do samodzielnego tłumaczenia haseł :) Specjalnie dla Ciebie przygotowaliśmy 5 popularnych kategorii słówek, najlepiej przekonaj się sam, potrząśnij telefonem i zacznij już teraz!!!</string>
+    <string name="wybor">Wybierz kategorię:</string>
+    <string name="kat1">DOM I RODZINA</string>
+    <string name="kat2">JEDZENIE</string>
+    <string name="kat3">SPORT</string>
+    <string name="kat4">TECHNIKA</string>
+    <string name="kat5">PRZYRODA</string>
+    <string name="info1">Potrząśnij, by wylosować kolejne</string>
+</resources>

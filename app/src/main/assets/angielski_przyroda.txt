@@ -1,0 +1,31 @@
+coast wybrzeże
+desert pustynia desert
+glacier lodowiec
+stream strumień
+waterfall wodospad waterfall
+blow wiać
+cloudy pochmurny
+fog mgła
+drizzle mżawka
+humid wilgotny
+meteorology meteorologia
+pressure ciśnienie
+huricane huragan hurr
+downpour ulewa
+branch gałąź branch
+greenhouse szklarnia green
+soil gleba
+badger borsuk badger
+breed hodować(zwierzęta)
+chimpanzee szympans chimp
+cockroach karaluch
+deer jeleń deer
+hare zając hare
+insect owad
+mammal ssak
+pigeon gołąb pigeon
+reptile gad
+stork bocian stork
+drought susza
+famine głód
+flood powódź

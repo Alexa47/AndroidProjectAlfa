@@ -1,0 +1,31 @@
+das Bogenschiessen-łucznictwo-archery
+das Bowling-kręgle-bowling
+der Kanusport-kajakarstwo
+die Kletterei-wspinaczka-climb
+der Radsport-kolarstwo-cycling
+das Darts-rzutki-dart
+der Tauchsport-nurkowanie-dive
+das Fechten-szermierka-fencing
+das Speerwerfen-rzut oszczepem-javelin
+das Fallschirmspringen-spadochroniarstwo
+der Staffellauf-sztafeta
+der Rudersport-wioślarstwo-row
+das Rollschuhfahren-rolkarstwo-roller
+der Scheisssport-strzelectwo
+das Skilaufen-narciarstwo-skiing
+das Ringen-zapasy
+der Pfeil-strzała
+der Queue-kij(bilardowy)
+der Bogen-łuk
+der Diskus-dysk
+die Hanteln-hantle
+die Huerde-płotek
+der Speer-oszczep
+das Netz-siatka
+der Kegel-kręgiel
+der Tischtennisschlaeger-rakietka
+der Federball-lotka
+die Eiskunstlaufschlittschuhe-łyżwy
+der Schlitten-sanki
+
+

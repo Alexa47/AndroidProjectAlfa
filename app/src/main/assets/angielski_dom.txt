@@ -1,0 +1,32 @@
+husband mąż husband
+wife żona wife
+grandchild wnuczek/wnuczka
+nephew siostrzeniec/bratanek
+niece siostrzenica/bratanica
+relative krewny
+brother-in-law szwagier
+daughter-in-law synowa
+father-in-law teść
+siblings rodzeństwo sibilings
+mother-in-law teściowa motherin
+son-in-law zięć
+spouse współmałżonek spouse
+armchair fotel armchair
+bookcase regał
+cabinet gablota
+couch sofa couch
+curtains zasłony
+cushion poduszka(dekoracyjna)
+doormat wycieraczka
+drawer szuflada
+fireplace kominek fireplace
+fitting sprzęt
+mantelpiece półka
+socekt gniazdko socket
+stool stołek
+tiles płytki
+fence płot fence
+windowsill parapet
+shutter okiennica
+
+

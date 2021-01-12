@@ -1,0 +1,36 @@
+das Radieschen-rzodkiewka-radish
+das Semmelmehl-bułka tarta
+das Hoernchen-rogalik-croissant
+der Hafer-owies
+der Weizen-pszenica
+der Dorsch-dorsz
+der Aal-węgorz
+der Hering-śledź
+der Hummer-homar
+die Makrele-makrela
+die Miesmuschel-małże
+der Lachs-łosoś-salmon
+die Sardine-sardynka
+der Schrimp-krewetka
+die Forelle-pstrąg
+der Thunfisch-tuńczyk
+die Ente-kaczka
+die Gans-gęsina
+das Lamm-jagnięcina
+das Hammelfleisch-baranina
+das Schweinefleisch-wieprzowina
+das Gefluegel-drób
+das Kaninchen-królik
+die Kutteln-flaki
+der Truthahn-indyk
+das Kalbfleisch-cielęcina
+der Spargel-szparag-asparagus
+der Blumenkohl-kalafior-culi
+der Sellerie-seler-celery
+der Mais-kukurydza-corn
+die Gurke-ogórek-cucu
+die Pore-por-leek
+der Pilz-grzyb-mushroom
+
+
+

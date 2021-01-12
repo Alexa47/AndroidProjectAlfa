@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/taki_gradient"
+    tools:context=".NiemieckiPodst">
+
+    <FrameLayout
+        android:id="@+id/My_Container_1_ID_N"
+        android:layout_width="fill_parent"
+        android:layout_height="230dp">
+        //android:background="@color/yellow"></FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/My_Container_2_ID_N"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/wordImageN"
+        android:layout_alignParentLeft="true">
+        //android:background="@color/Orange" ></FrameLayout>
+
+    <ImageView
+        android:id="@+id/wordImageN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/My_Container_1_ID_N"
+        android:layout_centerInParent="true">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/My_Container_2_ID_N"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/allerta"
+        android:text="@string/info1"
+        android:textColor="#040404"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,29 @@
+das Kind-dziecko
+der Ehemann-mąż-husband
+die Ehefrau-żona-wife
+der Enkel-wnuczek
+die Enkelin-wnuczka
+die Geschwister-rodzeństwo-sibilings
+der Neffe-siostrzenec/bratanek
+die Nichte-siostrzenica, bratanica
+die Zwillinge-bliźniaki
+die Stiefmutter-macocha
+der Stiefvater-ojczym
+die Schwiegermutter-teściowa-motherin
+der Schwiegervater-teść
+die Schwiegertochter-synowa
+der Schwiegersohn-zięć
+das Dachgeschoss-poddasze
+das Einfamilienhaus-dom jednorodzinny
+der Stock-piętro
+das Erdgeschoss-parter
+der Zaum-płot-fence
+die Kommode-komoda
+der Schreibtisch-biurko
+der Kamin-kominek-fireplace
+der Schrank-szafa
+das Sofa-kanapa-couch
+das Sessel-fotel-armchair
+die Treppe-schody
+die Steckdose-gniazdko-socket
+

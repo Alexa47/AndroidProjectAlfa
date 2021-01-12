@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/taki_gradient"
+    tools:context=".RozszerzenieAngielski">
+
+    <FrameLayout
+        android:id="@+id/cont1"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp">
+
+    </FrameLayout>
+    <ImageView
+        android:id="@+id/rozWordImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cont1"
+        android:layout_centerInParent="true">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/editT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rozWordImage"
+        android:fontFamily="@font/allerta"
+        android:hint="Podaj tłumaczenie"
+        android:inputType="text"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/background_dark"></EditText>
+
+    <Button
+        android:id="@+id/rozsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editT"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/allerta"
+        android:onClick="check"
+        android:text="Sprawdź!"
+        android:textColor="@android:color/background_dark">
+
+    </Button>
+
+
+</RelativeLayout>

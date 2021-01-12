@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/taki_gradient"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/titlecard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="6dp"
+        android:layout_centerInParent="true"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta"
+                android:text="Apka do nauki słówek"
+
+                android:textColor="#090909"
+                android:textSize="30sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_centerVertical="true"
+        android:layout_below="@id/titlecard"
+        android:id="@+id/card1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="6dp"
+        android:layout_centerInParent="true"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="120dp"
+                android:src="@drawable/an">
+            </ImageView>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="6dp"
+        android:layout_below="@id/card1"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="120dp"
+                android:src="@drawable/main">
+            </ImageView>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card3"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="6dp"
+        android:layout_below="@id/card2"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="120dp"
+                android:src="@drawable/niem">
+            </ImageView>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView36"-->
+<!--        android:layout_width="223dp"-->
+<!--        android:layout_height="126dp"-->
+<!--        android:layout_marginStart="83dp"-->
+<!--        android:layout_marginLeft="83dp"-->
+<!--        android:layout_marginTop="162dp"-->
+<!--        android:layout_marginEnd="81dp"-->
+<!--        android:layout_marginRight="81dp"-->
+<!--        android:layout_marginBottom="67dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/imageView37"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.625"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/an" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView37"-->
+<!--        android:layout_width="259dp"-->
+<!--        android:layout_height="140dp"-->
+<!--        android:layout_marginStart="83dp"-->
+<!--        android:layout_marginLeft="83dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:layout_marginEnd="81dp"-->
+<!--        android:layout_marginRight="81dp"-->
+<!--        android:layout_marginBottom="184dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.583"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView36"-->
+<!--        app:srcCompat="@drawable/niem" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="146dp"-->
+<!--        android:layout_marginLeft="146dp"-->
+<!--        android:layout_marginTop="65dp"-->
+<!--        android:layout_marginEnd="129dp"-->
+<!--        android:layout_marginRight="129dp"-->
+<!--        android:layout_marginBottom="107dp"-->
+<!--        android:fontFamily="@font/amita"-->
+<!--        android:text="Apka do nauki słówek"-->
+<!--        android:textColor="@android:color/background_dark"-->
+<!--        android:textSize="36sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/imageView36"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.593"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.28" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonGrade"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="42dp"-->
+<!--        android:layout_marginLeft="42dp"-->
+<!--        android:layout_marginTop="77dp"-->
+<!--        android:layout_marginEnd="281dp"-->
+<!--        android:layout_marginRight="281dp"-->
+<!--        android:layout_marginBottom="58dp"-->
+<!--        android:background="@drawable/roundbutton"-->
+<!--        android:text="Oceń nas!"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView37"-->
+<!--        android:fontFamily="@font/amita"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button12"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="156dp"-->
+<!--        android:layout_marginLeft="156dp"-->
+<!--        android:layout_marginTop="77dp"-->
+<!--        android:layout_marginEnd="37dp"-->
+<!--        android:layout_marginRight="37dp"-->
+<!--        android:layout_marginBottom="58dp"-->
+<!--        android:text="Więcej"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/buttonGrade"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView37"-->
+<!--        android:background="@drawable/roundbutton"-->
+<!--        android:fontFamily="@font/amita"/>-->
+</RelativeLayout>
